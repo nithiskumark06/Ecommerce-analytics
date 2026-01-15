@@ -1,0 +1,117 @@
+2026-01-11 12:18:01,208 - INFO - ECOMMERCE ETL PIPELINE STARTED
+2026-01-11 12:18:01,208 - INFO - ============================================================
+2026-01-11 12:18:01,425 - INFO - Loaded orders_nov_raw.csv: (300, 17)
+2026-01-11 12:18:01,432 - INFO - Loaded orders_dec_raw.csv: (300, 17)
+2026-01-11 12:18:01,433 - INFO - Combined orders: (600, 17)
+2026-01-11 12:18:01,441 - INFO - Orders combined: (600, 17)
+2026-01-11 12:18:01,751 - INFO - Missing values in orders_raw:
+Order ID                  0
+Order Name                0
+Created at                0
+Financial Status          0
+Customer ID               0
+Total Price               0
+Subtotal Price            0
+Total Discounts           0
+Shipping Cost             0
+Total Tax                 0
+Lineitem quantity         0
+Lineitem sku              0
+Lineitem price            0
+Lineitem total price      0
+Lineitem name             0
+Refund ID               537
+Risk Level                0
+dtype: int64
+2026-01-11 12:18:01,752 - INFO - Missing values in products_raw:
+Variant SKU              0
+Variant Price            0
+Cost per item            0
+Variant Inventory Qty    0
+True SKU margins         0
+dtype: int64
+2026-01-11 12:18:01,753 - INFO - Missing values in customers_raw:
+Customer ID      0
+Customer Name    0
+Email            0
+Phone Number     0
+City             0
+State            0
+Country          0
+Postal Code      0
+dtype: int64
+2026-01-11 12:18:02,643 - INFO - After dedupe/cancelled: 537
+2026-01-11 13:28:50,956 - INFO -        Recency Days   Frequency  Monetary Value
+count    335.000000  335.000000      335.000000
+mean      36.961194    1.602985     1192.127164
+std       17.887079    0.800817      790.980765
+min       11.000000    1.000000       56.200000
+25%       21.000000    1.000000      565.100000
+50%       35.000000    1.000000     1102.000000
+75%       52.500000    2.000000     1633.900000
+max       71.000000    5.000000     4253.400000
+2026-01-11 13:33:05,528 - INFO -             Metric      Value
+0     Total Orders     537.00
+1    Total Revenue  399362.60
+2  Avg Order Value     743.69
+3  Total Customers     335.00
+
+2026-01-11 13:34:34,040 - INFO - ETL SUCCESS | Revenue: 399,363 | Customers: 335
+2026-01-11 15:12:45,795 - INFO - ECOMMERCE ETL PIPELINE STARTED
+2026-01-11 15:12:45,797 - INFO - ============================================================
+2026-01-11 15:12:45,827 - INFO - Loaded orders_nov_raw.csv: (300, 17)
+2026-01-11 15:12:45,830 - INFO - Loaded orders_dec_raw.csv: (300, 17)
+2026-01-11 15:12:45,831 - INFO - Combined orders: (600, 17)
+2026-01-11 15:12:45,838 - INFO - Orders combined: (600, 17)
+2026-01-11 15:12:45,874 - INFO - Missing values in orders_raw:
+Order ID                  0
+Order Name                0
+Created at                0
+Financial Status          0
+Customer ID               0
+Total Price               0
+Subtotal Price            0
+Total Discounts           0
+Shipping Cost             0
+Total Tax                 0
+Lineitem quantity         0
+Lineitem sku              0
+Lineitem price            0
+Lineitem total price      0
+Lineitem name             0
+Refund ID               537
+Risk Level                0
+dtype: int64
+2026-01-11 15:12:45,875 - INFO - Missing values in products_raw:
+Variant SKU              0
+Variant Price            0
+Cost per item            0
+Variant Inventory Qty    0
+True SKU margins         0
+dtype: int64
+2026-01-11 15:12:45,876 - INFO - Missing values in customers_raw:
+Customer ID      0
+Customer Name    0
+Email            0
+Phone Number     0
+City             0
+State            0
+Country          0
+Postal Code      0
+dtype: int64
+2026-01-11 15:12:45,945 - INFO - After dedupe/cancelled: 537
+2026-01-11 15:12:46,222 - INFO -        Recency Days   Frequency  Monetary Value
+count    335.000000  335.000000      335.000000
+mean      36.961194    1.602985     1192.127164
+std       17.887079    0.800817      790.980765
+min       11.000000    1.000000       56.200000
+25%       21.000000    1.000000      565.100000
+50%       35.000000    1.000000     1102.000000
+75%       52.500000    2.000000     1633.900000
+max       71.000000    5.000000     4253.400000
+2026-01-11 15:12:46,262 - INFO -             Metric      Value
+0     Total Orders     537.00
+1    Total Revenue  399362.60
+2  Avg Order Value     743.69
+3  Total Customers     335.00
+2026-01-11 15:12:46,271 - INFO - ETL SUCCESS | Revenue: 399,363 | Customers: 335
